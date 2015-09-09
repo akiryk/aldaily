@@ -1,0 +1,20 @@
+Documentation
+
+Theme skeleton has been built based on themeshaper tutorial:
+http://themeshaper.com/2009/06/22/wordpress-themes-templates-tutorial/#wrapper
+
+Custom code for portfolio has been added to function.php:
+Register custom post type
+Register thumbnails
+Register 'what we did'
+Make custom meta boxes (Tutorial is here: http://www.ashbluewebdesign.com/2010/09/wordpress-portfolio-tutorial-custom-post-types/ )
+Created a folder called "includes" and put 'metaboxes' scripts in it. Metaboxes gives a lot of control over content and appearance of meta boxes.
+
+Registed a nav menu in functions.php so that I can take advantage of WP 3.0 appearance > menu options. See 
+Make sure you go to Appearance > Menu and choose primary menu name from the Primary Menu name dropdown on left.
+
+Created a home.php template and set it as the index page. See http://line25.com/tutorials/how-to-build-a-basic-portfolio-wordpress-theme
+
+Turned off links on currently selected page using Remove Link to Current Page plugin
+
+Changed the "What We Did" widget in CMS to "Portfolio Tags" I'm not sure how to use these, but I think they can serve like tags but exclusively for portfolio items.
