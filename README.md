@@ -8,8 +8,8 @@ This is a Wordpress theme for a prototype site exploring an alterate way to disp
 ###How to use the same data as on aldaily.adamkiryk.com
 1. Export database or use the file aldaily-database-backup in these files
 2. Make sure that the data is correct for two lines in the wp_options table
-  * option_id = 3, siteurl. 
-  * option_id = 39, home. 
+  * option_id = 3, siteurl (e.g. localhost/myaldaily)
+  * option_id = 39, home (e.g. localhost/myaldaily)
 
 ###How to display sidebar links correctly
 1. Copy my-link-order plugin from aldaily/plugins_backup to wp-content/plugins.
