@@ -21,3 +21,7 @@ This is a Wordpress theme for a prototype site exploring an alterate way to disp
 ###How to display sidebar links correctly
 1. Copy my-link-order plugin from aldaily/backups to wp-content/plugins.
 2. Enable my-link-order
+
+###Make sure navigation works
+1. Go to Appearance > Menus in wp admin
+2. Set url for "All Categories" link to correct home page.

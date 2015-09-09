@@ -8,10 +8,7 @@
 			 if(is_home() || is_front_page()) {
 			 	 $navtitle = "All Categories";
 			 } else if (is_category()){
-				global $post; $id = $post->ID; 
-			 	$cat_id =  get_the_category( $id );
-				$categories = $cat_id[0];
-			 	$navtitle = get_cat_name($categories->cat_ID);
+			 	$navtitle = single_cat_title( '', false );
 			 } else {
 			 	$navtitle = "Menu";
 			 }
