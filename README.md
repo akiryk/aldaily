@@ -13,6 +13,11 @@ This is a Wordpress theme for a prototype site exploring an alterate way to disp
   * option_id = 3, siteurl (e.g. localhost/myaldaily)
   * option_id = 39, home (e.g. localhost/myaldaily)
 
+###How to manage posts
+1. Install Custom Content Type Manager, https://wordpress.org/plugins/custom-content-type-manager/installation/ or in backups
+2. Enable it (it requires several fields which are specified in the db backup)
+3. Add/edit custom posts (called "AL Daily Posts") by clicking on link at the top of the sidebar on dashboard.
+
 ###How to display sidebar links correctly
 1. Copy my-link-order plugin from aldaily/backups to wp-content/plugins.
 2. Enable my-link-order
